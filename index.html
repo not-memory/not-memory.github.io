@@ -5,11 +5,16 @@
 
 <p id="demo">A Paragraph.</p>
 
-<button type="button" onclick="myFunction()">Try it</button>
+<script src="http://www.java.com/js/deployJava.js"></script>
+<script>
+    var attributes = {
+        code:'testProject.class',
+    width:700, height:500} ;
+    var parameters = {}; // does the Applet take parameters?
+    var version = '1.6' ; // does the Applet require a minimum version of Java
+    deployJava.runApplet(attributes, parameters, version);
+</script>
 
-<p>(myFunction is stored in an external file called "testScript.js")</p>
-
-<script src="testScript.js"></script>
 
 </body>
 </html>
