@@ -5,16 +5,10 @@
 
 <p id="demo">A Paragraph.</p>
 
-<script src="http://www.java.com/js/deployJava.js"></script>
-<script>
-    var attributes = {
-        code:'testProject.class',
-    width:700, height:500} ;
-    var parameters = {}; // does the Applet take parameters?
-    var version = '1.6' ; // does the Applet require a minimum version of Java
-    deployJava.runApplet(attributes, parameters, version);
-</script>
-
+ <p>
+  <object codetype="application/java" classid="java:TestClass.class"
+   archive="TestHTML.jar" width="740" height="400"></object>
+ </p>
 
 </body>
 </html>
