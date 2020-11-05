@@ -4,13 +4,6 @@ function myFunction() {
 
 
 
-function printDate()
-{
-
-var today = new date;
-
-/*var fullDate = */document.getElementById("fullDate").innerHTML = "...";
-// fullDate.textContent = today.getTime();
-
-}
-printDate();
+function printdate() {
+  document.getElementById("dat").innerHTML = Date();
+ }
