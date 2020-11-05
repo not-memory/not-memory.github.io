@@ -18,5 +18,5 @@ fullDate.textContent = today.getTime();
 
 
 // function printDate() {
-//   document.getElementById("dat").innerHTML = "...";
+//   document.getElementById("dat").innerHTML = "kek";
 //  }
