@@ -9,7 +9,7 @@ function printDate()
 
 var today = new date;
 
-var fulldate = document.getElementById("fulldate");
+var fulldate = document.getElementById("fullDate");
 fulldate.textContent = today.getTime();
 
 }
