@@ -6,7 +6,7 @@ function myFunction() {
 
 
 
- function printdate()
+ function printDate()
 {
 
 // var today = new date;
