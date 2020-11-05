@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-<h1>* Test Header *</h1>
+<h1>- Test Header -</h1>
 
 <p id="demo">A Paragraph.</p>
 
@@ -9,11 +9,15 @@
   <object codetype="application/java" classid="java:TestClass.class"
    archive="java/TestHTML.jar" width="740" height="400"></object>
  </p> -->
-<script src="testScript.js"></script>
+ <button type="button" onclick="myFunction()">Click Me!</button>
 
-<button type="button" onclick="printDate()"> Click to display the date</button>
-
-<p id="fullDate"> date: </p>
+ <p id="demo">This is a demonstration.</p>
+ 
+ <script>
+ function myFunction() { 
+   document.getElementById("demo").innerHTML = "Hello JavaScript!";
+ }
+ </script>
 
 </body>
 </html>
