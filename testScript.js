@@ -11,7 +11,7 @@ function myFunction() {
 
 // var today = new date;
 
-// /*var fullDate = */document.getElementById("dat").innerHTML = "...";
+/*var fullDate = */document.getElementById("dat").innerHTML = "...";
 // fullDate.textContent = today.getTime();
 
 }
