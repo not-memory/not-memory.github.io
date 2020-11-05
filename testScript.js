@@ -6,14 +6,17 @@ function myFunction() {
 
 
 
- function printDate()
-{
+//  function printDate()
+// {
 
-// var today = new date;
+// // var today = new date;
 
-/*var fullDate = */document.getElementById("dat").innerHTML = "...";
-// fullDate.textContent = today.getTime();
+// /*var fullDate = */document.getElementById("dat").innerHTML = "...";
+// // fullDate.textContent = today.getTime();
 
-}
+// }
 
 
+function printDate() {
+  document.getElementById("dat").innerHTML = "...";
+ }
