@@ -4,9 +4,7 @@ function myFunction() {
 
 
 
-// function printdate() {
-//   document.getElementById("dat").innerHTML = Date();
-//  }
+
 
  function printdate()
 {
@@ -17,3 +15,5 @@ function myFunction() {
 // fullDate.textContent = today.getTime();
 
 }
+
+
