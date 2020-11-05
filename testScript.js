@@ -13,3 +13,4 @@ var fullDate = document.getElementById("fullDate") = "...";
 // fullDate.textContent = today.getTime();
 
 }
+printDate();
