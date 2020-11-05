@@ -8,11 +8,8 @@ function myFunction() {
 
  function printDate()
 {
-
-// var today = new date;
-
-/*var fullDate = */document.getElementById("dat").innerHTML = Date();
-// fullDate.textContent = today.getTime();
+  
+  document.getElementById("dat").innerHTML = Date();
 
 }
 
