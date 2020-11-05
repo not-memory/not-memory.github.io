@@ -8,12 +8,7 @@ function myFunction() {
 
  function printDate()
 {
-  
+
   document.getElementById("dat").innerHTML = Date();
 
 }
-
-
-// function printDate() {
-//   document.getElementById("dat").innerHTML = "...";
-//  }
